@@ -11,10 +11,15 @@ This project walks through essential **React concepts** such as handling state w
 ## **Features**
 
 ✔ **useReducer for State Management** – Learn how to manage complex state logic using the `useReducer` hook.
+
 ✔ **Dynamic Question Loading** – Fetch quiz questions from a mock API and display them dynamically.
+
 ✔ **Loading & Error Handling** – Implement different states such as loading, error, and ready.
+
 ✔ **User Interaction & Navigation** – Move between questions, submit answers, and track progress.
+
 ✔ **Quiz Timer** – Set up a countdown timer using `useEffect`.
+
 ✔ **Restart & Completion Handling** – Allow users to restart the quiz and display final results.
 
 ---
