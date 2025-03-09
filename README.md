@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# **React Quiz App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Description**
 
-## Available Scripts
+The **React Quiz App** is an interactive web application that helps users test and enhance their React knowledge through a structured quiz system. The app dynamically loads questions from a fake API, manages user answers, tracks progress, and includes a countdown timer. State management is handled using the **useReducer** hook, making it an excellent project for learning how to manage complex state logic in React.
 
-In the project directory, you can run:
+This project walks through essential **React concepts** such as handling state with `useReducer`, fetching and managing asynchronous data, implementing UI interactions, and structuring a real-world React application.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔ **useReducer for State Management** – Learn how to manage complex state logic using the `useReducer` hook.
+✔ **Dynamic Question Loading** – Fetch quiz questions from a mock API and display them dynamically.
+✔ **Loading & Error Handling** – Implement different states such as loading, error, and ready.
+✔ **User Interaction & Navigation** – Move between questions, submit answers, and track progress.
+✔ **Quiz Timer** – Set up a countdown timer using `useEffect`.
+✔ **Restart & Completion Handling** – Allow users to restart the quiz and display final results.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Installation**
 
-### `npm run build`
+### **1. Clone the Repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/khanhpiu28/react-quiz-app.git
+cd react-quiz-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **2. Install Dependencies**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+### **3. Start the Application**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **4. Open in Browser**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+http://localhost:3000
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## **Usage**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **1. Understanding the Core Structure**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The app initializes state using `useReducer`.
+- Questions are fetched from a **fake API** before being displayed.
+- The UI updates dynamically based on the quiz progress.
 
-### Code Splitting
+### **2. Navigating the Quiz**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Start a new quiz** – The app loads questions and initializes the quiz.
+- **Answer questions** – The user selects an answer, and the app tracks the response.
+- **Move to the next question** – The app updates the progress state and navigates forward.
+- **Track progress** – A progress bar shows quiz completion.
+- **Handle quiz completion** – Once all questions are answered, the final score is displayed.
+- **Restart the quiz** – Users can reset and take the quiz again.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
